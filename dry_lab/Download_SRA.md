@@ -10,8 +10,8 @@ the SRA data was first downloaded using the accession numbers, then the data was
 
 ## Usage
 
-'prefetch' downloaded the sra for each sample
+```prefetch``` downloaded the sra for each sample
 
-'fasterq-dump' coverted each .sra file to a .fastq file for later analysis
+```fasterq-dump``` coverted each .sra file to a .fastq file for later analysis
 
 
