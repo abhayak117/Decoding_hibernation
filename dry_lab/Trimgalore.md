@@ -10,7 +10,7 @@ Trimgalore clips Illumina adapter sequences, removes low-quality ends, trims the
 
 ## Usage
 
-''' trim_galore --paired -q 24 --fastqc --fastqc_args "--noextract --nogroup --outdir 1_trim/fastqc" --stringency 5 --illumina --length 50
--o 1_trim --clip_R1 12 --clip_R2 12 [path/to/read1] [path/to/read2] '''
+``` trim_galore --paired -q 24 --fastqc --fastqc_args "--noextract --nogroup --outdir 1_trim/fastqc" --stringency 5 --illumina --length 50
+-o 1_trim --clip_R1 12 --clip_R2 12 [path/to/read1] [path/to/read2] ```
 
 
