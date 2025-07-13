@@ -9,7 +9,7 @@ FeatureCounts takes SAM or BAM files as an imputs and a reference annotation fil
 
 ## Usage
 
-FeatureCounts was used to count our feature of exons, with gene_ID for meta-feature level summarization in the bear reference genome GCF_023065955.2
+FeatureCounts was used to count our feature of exons, with gene_ID for meta-feature level summarization in the bear reference NCBI genome GCF_023065955.2
 
 ```
 featureCounts -p -F 'GTF' -T 8 -t exon -g gene_id -a [path/to/GTF] -o [outfile.txt] [path/to/sorted/bam/files/*.bam]
