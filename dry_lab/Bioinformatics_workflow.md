@@ -1,3 +1,5 @@
+# Bioinformatics Processing
+
 ## Trimming with Trimgalore
 
 Raw FASTQ files were trimmed and a quality report was produced with FastQC through Trimgalore v0.6.10
