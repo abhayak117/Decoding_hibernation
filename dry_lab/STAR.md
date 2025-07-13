@@ -17,7 +17,6 @@ First we index the genome, which creates a data structure, called an index, that
 Using v2.7.10b of STAR, trimmed reads were mapped to the bear genome brown bear reference genome assembly NCBI GCF_023065955.2, and only uniquely mapped reads were kept and then converted to BAM files, which are compressed of SAM files
 
 ```
-
 STAR \
 --runThreadN 12 \
 --genomeDir ./2_star/indexed_genome/ \
@@ -28,5 +27,4 @@ STAR \
 --twopassMode Basic \
 --outFileNamePrefix analysis/2_star/${sra}_
 --outSAMtype BAM SortedByCoordinate
-
 ```
