@@ -7,7 +7,6 @@ Spliced Transcripts Alignment to a Reference, (STAR) is an aligner designed to a
 
 
 ## Function
-→ What’s happening with the data when it’s called
 
 First we index the genome, which creates a data structure, called an index, that allows for rapid searching and retrieval of sequence information within a genome. STAR is able to use the indexed genome to map reads to the reference genome more efficently. 
 
